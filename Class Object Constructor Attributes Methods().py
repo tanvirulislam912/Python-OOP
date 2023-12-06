@@ -22,7 +22,7 @@ class Student:
         print("Name:", self.name, "Id:", self.Id)                                  
          
             
-#variable = class_name()
+#variable = class_name()                                #Object create
 s1 = Student("Kobbla", 23)
 s2 = Student("Habla", 34)
 
