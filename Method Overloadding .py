@@ -1,6 +1,6 @@
 # class my_calculator:
 #                                     #default constructor
-#     def product(self, num1, num2=None, num3=None):
+#     def product(self, num1, num2=None, num3=None):                    #Limited Number
 #         if num1 != None and num2 !=None and num3 != None:
 #             print(num1 * num2 * num3)
 #         elif num1 != None and num2 !=None:
@@ -22,7 +22,7 @@
 
 class my_calculator:
                                     #default constructor
-    def product(self, *nums):
+    def product(self, *nums):                                #number of N
         pro = 1
         print(nums)
         for x in nums:
