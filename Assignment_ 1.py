@@ -30,4 +30,3 @@ class Test3:
 t3 = Test3()
 t3.methodA()
 t3.methodA()
-
