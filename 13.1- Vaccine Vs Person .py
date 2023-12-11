@@ -1,13 +1,13 @@
 class Vaccine:
     def __init__(self, name, md_in, intrvl):
         self.name = name
-        self. md_in = md_in
+        self.md_in = md_in
         self.intrvl = intrvl
 
 class Person:
     def __init__(self, pname, age, ptype ="General Citizen"):
         self.pname = pname
-        self. age = age
+        self.age = age
         self.ptype = ptype
         self.vac = ""         
         self.firstdose = False
@@ -20,18 +20,18 @@ class Person:
                 self.firstdose = True
                 print("1st dose done for", self.pname)
             else:
-                print("Sorry", self.pname,"Minimum age for taking vaccine is 25 years now")
+                print("Sorry",self.pname,"Minimum age for taking vaccine is 25 years now")
 
         else:
             if self.vac.name != vacN.name:
-                print("Sorry", self.pname, "you cannot take 2 different vaccine")
+                print("Sorry",self.pname, "you cannot take 2 different vaccine")
             elif self.firstdose == True:
                 self.secdose = True
                 print("2nd dose done for", self.pname)
                             
     def showDetail(self):
         print("Name:",self.pname, "Age:",self.age, "Type:",self.ptype)
-        print("Vaccine Name:", self.vac.name)
+        print("Vaccine Name:",self.vac.name)
         if self.secdose == True:
             print("1st dose given")
             print("2nd dose given")
