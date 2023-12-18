@@ -96,7 +96,7 @@ class ChildClass(ParentClass1, ParentClass2):   #Derived Class
         print("This method3 is in ChildClass.")
 
 
-ch1 = ChildClass()                            #Object of ChildClass                           #Object of ChildClass2
+ch1 = ChildClass()                            #Object of ChildClass                           
 ch1.method1()
 ch1.method2()
 ch1.method3()
@@ -125,7 +125,7 @@ class ChildClass3(ChildClass1):              #Derived Class 3
         print("This method4 is in ChildClass3.")                
 
 
-ch1 = ChildClass3()                           #Object of ChildClass3                          #Object of ChildClass2
+ch1 = ChildClass3()                           #Object of ChildClass3                          
 ch1.method1()
 ch1.method2()
 
