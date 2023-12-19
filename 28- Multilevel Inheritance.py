@@ -34,5 +34,5 @@ s2.details()
 s1.cry()
 s2.cry()
 
-s2.enroll_CSE110()
+s2.enroll_CSE110() 
 
